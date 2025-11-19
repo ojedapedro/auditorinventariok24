@@ -1,0 +1,53 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        margin: 50px auto;
+        padding: 20px;
+    }
+    
+    .card-header {
+        padding: 12px 15px;
+    }
+    
+    .scan-input {
+        font-size: 1rem;
+        padding: 12px;
+    }
+    
+    .table-responsive {
+        font-size: 0.9rem;
+    }
+    
+    .navbar-brand {
+        font-size: 1rem;
+    }
+    
+    .summary-card h4 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .inventory-info .row {
+        margin-bottom: 10px;
+    }
+    
+    .inventory-info .col-md-4 {
+        margin-bottom: 15px;
+    }
+    
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .btn-group .btn {
+        margin-bottom: 5px;
+        border-radius: 5px !important;
+    }
+}
